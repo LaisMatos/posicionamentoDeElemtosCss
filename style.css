@@ -1,0 +1,21 @@
+/*Reset*/
+*{
+    margin: 0; /*espaçamento externo*/
+    padding: 0; /*espaçamento interno*/
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%; /*largura*/
+    height: 210px; /*altura*/
+    background-color: rgb(95, 158, 160);
+    padding-top: 1%;
+   
+}
+#divHeader{
+    width: 400px;
+    height: 150px;
+    margin: auto; /*automaticamente ele posiciona o elemento no meio */
+   background-color: rgba(248, 243, 221, 0.932);
+    
+}
