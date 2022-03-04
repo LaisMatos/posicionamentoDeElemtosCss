@@ -3,19 +3,65 @@
     margin: 0; /*espaçamento externo*/
     padding: 0; /*espaçamento interno*/
     box-sizing: border-box;
+   
 }
 
 header{
     width: 100%; /*largura*/
-    height: 210px; /*altura*/
+    height: 300px; /*altura*/
     background-color: rgb(95, 158, 160);
     padding-top: 1%;
    
 }
 #divHeader{
     width: 400px;
-    height: 150px;
+    height: 200px;
     margin: auto; /*automaticamente ele posiciona o elemento no meio */
-   background-color: rgba(248, 243, 221, 0.932);
+   
+    background-color: rgba(248, 243, 221, 0.932);
     
 }
+#textHeader{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5rem;
+    
+    
+}
+#produtos{
+    width:100%;
+    min-height: 100px; /*autura minima*/
+    height: auto; /*se estourar o <min-height>, este elemento fica automático*/
+    overflow: hidden; /*se a div estourar o overflow especifica quando o conteúdo deve ser cortado, exibido com barras de rolagem, ou se ultrapassa o limite do elemento.*/
+    /*O parâmetro hidden torna o texto invisível.*/
+    background-color: rgb(199, 131, 107);
+
+}
+.conteudo{
+    width: 1400px; /* máximo de largura*/
+    height: inherit; /* <inherit> é um elemento de herança, especifica que uma propriedade deve herdar seu valor de seu elemento pai*/
+    margin: auto;
+    background-color: lightslategrey;
+
+}
+.cardProduto{
+    width: 400px;
+    height: 500px;
+    background-color: mistyrose;
+    float: left;
+    margin-right: 50px; /* empurra os cards para se afastarem*/
+    margin-left: 16px;
+    margin-bottom: 35px;
+
+    
+}
+/*#contatos{
+    width: 100%;
+    height: 400px;
+    background-color: maroon;
+}
+#contatos .conteudo{
+    background-color: mediumpurple;
+}*/
+
+/*para posiscionar elementos horizontalmente usando <display:flex>, <grid> ou <float: left>*/
+/*<min>  significa minimo*/
